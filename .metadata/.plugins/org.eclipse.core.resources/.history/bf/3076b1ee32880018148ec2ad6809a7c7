@@ -1,0 +1,5 @@
+package com.book.search.controller;
+
+public class AjaxController {
+
+}

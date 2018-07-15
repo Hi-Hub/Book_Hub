@@ -1,0 +1,94 @@
+nav {
+	text-align: right;
+}
+
+#books .list-group-item dl dd {
+	display: none;
+	clear: both
+}
+
+#books .list-group-item dl dd .left {
+	float: left;
+	width: 110px;
+}
+
+body {
+	padding-bottom: 40px;
+}
+
+body.login {
+	padding-top: 40px;
+	background-color: #feeb34;
+}
+
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.form-signin .form-signin-heading, .form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+	font-weight: 400;
+}
+
+.form-signin .form-control {
+	position: relative;
+	box-sizing: border-box;
+	height: auto;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+
+.form-signin input[type="text"] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.form-signin .error-message {
+	display: none;
+	/*color: #fc401d;*/
+}
+
+.form-signin .error-message.fail {
+	display: block;
+}
+
+.main-top-layout {
+	background: #442c2a;
+	color: white;
+	padding: 21px 0px;
+}
+
+.paging-layout {
+	text-align: center;
+}
+
+.paging-layout .pagination {
+	
+}
+
+.paging-layout .pagination li {
+	padding: 5px 5px;
+}
+.paging-layout .pagination li.disabled a{
+	color: #e9e9e9;
+}
+.paging-layout .pagination li.active a{
+	font-size: 1.1em;
+	color: gray;
+}

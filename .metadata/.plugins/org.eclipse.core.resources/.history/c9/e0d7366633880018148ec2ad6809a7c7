@@ -1,0 +1,5 @@
+package com.book.search.enums;
+
+public class EnumBookCategory {
+
+}
